@@ -8,7 +8,6 @@ export default function Contact() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    // В демо — просто уведомление. В реальном проекте отправка на сервер.
     alert(`Thanks ${name}! (demo)\nI would normally send this message to email: ${email}`);
     setName(""); setEmail(""); setMsg("");
   }
